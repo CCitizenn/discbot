@@ -15,7 +15,7 @@ client = commands.Bot(command_prefix="!", intents=discord.Intents.all()) #sets p
 async def main():
     async with client:
         await load()
-        await client.start("MTE1OTU2MjEzMTA4NDE2MTAyNA.GuURkg.s7c7vYLroG21w_g2pzFF-cgd__HP9ck8pHmRxQ")
+        await client.start("PRIVATE TOKEN")
 
 bot_status = cycle(["Mice Catching Simulator!", "Meow", "How to take over the world: for Dummies", "Pussy Simulator 3", "Wildlife video of Birds"])
 @tasks.loop(seconds=7) # changes every 3 seconds
