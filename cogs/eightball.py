@@ -13,8 +13,7 @@ class eightball(commands.Cog):
 
     @commands.command(alias=["8ball", "magic_eightball",])
     async def eightball(ctx, *, question):
-        with open("responses.txt", "r") as f:
-        #with open("os.chdir('./responses.txt')responses.txt", "r") as f: #open file in read mode with alias "f"
+        with open("os.chdir('./responses.txt')responses.txt", "r") as f: 
             rResponses = f.readlines()
             response = random.choice(rResponses) 
 
